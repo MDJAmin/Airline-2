@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Amin Airline</title>
+</head>
+
+<body>
+    <h2>Welcome to Amin Airline</h2>
+    <h3>Please enter your name and then select your airline company</h3>
+    <div class="inp-selector">
+        <input type="text" id="nameInput" placeholder="FirstName & LastName">
+
+        <select id="airlinesSelect">
+            <option value="airline1">Amin Airline</option>
+            <option value="airline2">Alireza Airline</option>
+            <option value="airline3">Amir Airline</option>
+        </select>
+    </div>
+    <div class="div-btn">
+        <button onclick="submitUser()">Confirm</button>
+        <button class="Show-btn" onclick="displayUsers()">Show the result</button>
+    </div>
+    <table id="usersTable">
+        <tr>
+            <th>FirstName & LastName</th>
+            <th>Airline company </th>
+        </tr>
+    </table>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
