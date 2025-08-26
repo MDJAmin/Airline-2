@@ -3,7 +3,7 @@ var users = [];
 function submitUser() {
   var name = document.querySelector("#nameInput").value;
   var airline = document.querySelector("#airlinesSelect").value;
-  users.push({ name: name, airline: airline, });
+  users.push({ name: name, airline: airline });
   document.querySelector("#nameInput").value = "";
   document.querySelector("#airlinesSelect").value = "";
 }

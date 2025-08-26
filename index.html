@@ -1,36 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="favicon.png"
+      type="image/x-icon"
+    />
+    <title>MDJAmin Airline</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Amin Airline</title>
-</head>
-
-<body>
+  <body>
     <h2>Welcome To Airlines Reservation Form</h2>
     <h3>Please enter your name and then select your airline company</h3>
     <div class="inp-selector">
-        <input type="text" id="nameInput" placeholder="FirstName & LastName">
+      <input
+        type="text"
+        id="nameInput"
+        placeholder="FirstName & LastName"
+      />
 
-        <select id="airlinesSelect">
-            <option value="airline1">Singapore Airlines</option>
-            <option value="airline2">Qatar Airways</option>
-            <option value="airline3">ANA All Nippon Airways</option>
-        </select>
+      <select id="airlinesSelect">
+        <option value="airline1">Singapore Airlines</option>
+        <option value="airline2">Qatar Airways</option>
+        <option value="airline3">ANA All Nippon Airways</option>
+      </select>
     </div>
     <div class="div-btn">
-        <button onclick="submitUser()">Confirm</button>
-        <button class="Show-btn" onclick="displayUsers()">Show the result</button>
+      <button onclick="submitUser()">Confirm</button>
+      <button
+        class="Show-btn"
+        onclick="displayUsers()"
+      >
+        Show the result
+      </button>
     </div>
     <table id="usersTable">
-        <tr>
-            <th>FirstName & LastName</th>
-            <th>Airline company </th>
-        </tr>
+      <tr>
+        <th>FirstName & LastName</th>
+        <th>Airline company</th>
+      </tr>
     </table>
+    <div class="MDJAminDiv">
+      <a
+        class="MDJAmin"
+        href="https://github.com/MDJAmin"
+        target="_blank"
+        >MDJAmin</a
+      >
+    </div>
     <script src="./js/script.js"></script>
-</body>
-
+  </body>
 </html>

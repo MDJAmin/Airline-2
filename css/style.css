@@ -160,7 +160,7 @@ td.text-center {
 td.text-right {
   text-align: right;
 }
-div.div-btn{
+div.div-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -179,15 +179,15 @@ button {
   cursor: pointer;
   transition: all 0.5s;
 }
-button:hover{
+button:hover {
   background-color: #00ff77;
   scale: 1.1;
 }
-button.Show-btn{
+button.Show-btn {
   background-color: #be6b6b;
   transition: all 0.5s;
 }
-button.Show-btn:hover{
+button.Show-btn:hover {
   background-color: #e81111;
   scale: 1.1;
 }
@@ -210,10 +210,10 @@ input {
   font-size: 14px;
   transition: all 0.5s;
 }
-input:hover{
+input:hover {
   scale: 1.1;
 }
-input:focus{
+input:focus {
   scale: 1.1;
 }
 select {
@@ -226,4 +226,31 @@ select {
   padding: 15px;
   box-sizing: border-box;
   font-size: 14px;
+}
+
+.MDJAminDiv {
+  z-index: 4444;
+  position: fixed;
+  bottom: 5%;
+  left: 2%;
+}
+
+.MDJAmin {
+  text-decoration: none;
+  border-bottom: 1px dashed rgb(204, 204, 204);
+  border-top: 1px dashed rgb(204, 204, 204);
+  /* border-bottom: 1px dashed rgb(44, 44, 44); */
+  /* border-top: 1px dashed rgb(44, 44, 44); */
+  padding: 4px 0;
+  /* color: rgba(44, 44, 44, 0.525); */
+  color: rgba(204, 204, 204, 0.414);
+  font-family: monospace;
+  font-style: italic;
+  font-size: 1.1em;
+  transition: all 0.5s;
+}
+
+.MDJAmin:hover {
+  /* color: #000000; */
+  color: white;
 }
